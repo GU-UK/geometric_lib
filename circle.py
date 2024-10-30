@@ -11,7 +11,8 @@ def area(r):
 
         Возвращаемое значение:
             math.pi * r * r (float): десятичное число.
-
+        Пример:
+        area(3)  =>  pi * 3 * 3 ~ 28,27433387
     '''
     return math.pi * r * r
 
@@ -26,7 +27,8 @@ def perimeter(r):
 
         Возвращаемое значение:
             2 * math.pi * r (float): десятичное число.
-
+        Пример:
+        perimeter(3)  =>  2 * pi * 3 ~ 18,8495559
     '''
     return 2 * math.pi * r
 
