@@ -37,9 +37,9 @@ class circleqweqwe(unittest.TestCase):
     def test_area_zero(self):
         self.assertEqual(area(10, 0), 0)
     def test_area_neg(self):
-        x, y, z = -5, -12, -13
+        x, y = -5, -12
         with self.assertRaises(AssertionError):
-            area(x, y, z)
+            area(x, y)
 
     def test_perimeter_triangle(self):
         self.assertEqual(perimeter(10, 5, 3), 18)
