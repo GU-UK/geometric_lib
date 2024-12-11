@@ -172,5 +172,5 @@ perimiter(2)
 | triangle_area(10, 0)                 | 0                    | 0                    | Да           | Успешно           |
 | triangle_area(9.3, 12.5)               | 58.125                   | 58.125                   | Да           | Успешно           |
 | triangle_perimeter(10, 5, 3)         | 18                   | 18                   | Да           | Успешно           |
-| triangle_perimeter(10, 0, 3)         | 0                    | 13                   | Да           | Успешно           |
+| triangle_perimeter(10, 0, 3)         | 0                    | 13                   |  Нет          | Успешно           |
 | triangle_perimeter(9.3, 12.5, 2.5)     | 24.3                 | 24.3                  | Да           | Успешно           |
