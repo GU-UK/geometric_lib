@@ -31,7 +31,7 @@ def perimeter(a, b, c):
     return a + b + c
 
 import unittest
-class circleqweqwe(unittest.TestCase):
+class TriadngleTestCase(unittest.TestCase):
     def test_area_triangle(self):
         self.assertEqual(area(10, 5), 25)
     def test_area_zero(self):
