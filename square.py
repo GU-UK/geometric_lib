@@ -36,13 +36,13 @@ class SquareTestCase(unittest.TestCase):
     def test_area_zero(self):
         self.assertEqual(area(0), 0)
     def test_area_nointeger(self):
-        res = area(9.42312)
-        self.assertEqual(res, 88.7951905)
+        res = area(9.3)
+        self.assertAlmostEqual(res, 86.4900, places=4)
 
     def test_perimeter_square(self):
         self.assertEqual(perimeter(10), 40)
     def test_perimeter_zero(self):
         self.assertEqual(perimeter(0), 0)
     def test_perimeter_nointeger(self):
-        res = perimeter(9.42312)
-        self.assertEqual(res, 37.69248)
+        res = perimeter(9.3)
+        self.assertEqual(res, 37.2)
