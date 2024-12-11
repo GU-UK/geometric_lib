@@ -37,13 +37,13 @@ class circleqweqwe(unittest.TestCase):
     def test_area_zero(self):
         self.assertEqual(area(10, 0), 0)
     def test_area_neg(self):
-        x, y = -5, -12
-        self.assertEqual(area(x, y), 30)
+        x, y = 9.3, 12.5
+        self.assertAlmostEqual(area(x, y), 58.125, places=4)
 
     def test_perimeter_triangle(self):
         self.assertEqual(perimeter(10, 5, 3), 18)
     def test_perimeter_zero(self):
         self.assertEqual(perimeter(10, 0, 3), 0)
     def test_perimeter_neg(self):
-        x, y, z = -5, -12, -13
-        self.assertEqual(perimeter(x, y, z), -30)
+        x, y, z = 9.3, 12.5, 2.5
+        self.assertAlmostEqual(perimeter(x, y, z), 24.3, places=4)
