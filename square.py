@@ -30,7 +30,7 @@ def perimeter(a):
 
 
 import unittest
-class circleqweqwe(unittest.TestCase):
+class SquareTestCase(unittest.TestCase):
     def test_area_square(self):
         self.assertEqual(area(10), 100)
     def test_area_zero(self):
