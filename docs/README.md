@@ -168,7 +168,7 @@ perimiter(2)
 | square_perimeter(9.42312)            | 37.69248             | 37.69248             | Да           | Успешно           |
 | triangle_area(10, 5)                 | 25                   | 25                   | Да           | Успешно           |
 | triangle_area(10, 0)                 | 0                    | 0                    | Да           | Успешно           |
-| triangle_area(-5, -12)               | -8.5                 | -8.5                 | Да           | Успешно           |
+| triangle_area(-5, -12)               | 10                   | 10                   | Да           | Успешно           |
 | triangle_perimeter(10, 5, 3)         | 18                   | 18                   | Да           | Успешно           |
 | triangle_perimeter(10, 0, 3)         | 0                    | 13                   | Да           | Успешно           |
 | triangle_perimeter(-5, -12, -13)     | -30                  | -30                  | Да           | Успешно           |
