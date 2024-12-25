@@ -35,7 +35,7 @@
     * Добавьте следующее в файл **keybindings.json**:
         ```json
         {
-            "key": "ctrl+alt+shift+p",  // Замените на вашу горячую клавишу
+            "key": "ctrl+oem_7",  // Замените на вашу горячую клавишу
             "command": "workbench.action.terminal.sendSequence",
             "args": {
                 "text": "python /path/to/your/plugin/search.py ${selectedText}\u000D"
